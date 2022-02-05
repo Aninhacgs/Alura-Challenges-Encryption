@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+  <head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Challenge Encryption</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon" href="encryption.png">
+    
+  </head>
+  <body>
+    <h1 class="titulo">Código Secreto</h1><br>
+    
+    <main class="main">
+      <section class="form box">
+        <form action="">
+          <label for="input-texto">Apenas letras minúsculas, sem acento</label>
+          <input class="text-input" type="text" name="input-texto" id="input-texto" placeholder="insira o texto aqui">
+          <input class="btn" type="submit" value="criptografar!" id="btn-cripto">
+          <input class="btn" type="submit" value="descriptografar!" id="btn-descripto">
+        </form>
+      </section>
+      
+      <section class="msg box">
+        <h3 id="titulo">Mensagem:</h3>
+        <input class="text-input" type="text" id="msg">
+        <input class="btn" type="submit" value="copiar" id="btn-copy">
+        <br/><h3 id="mensagem-copiada" class="copy"></h3>
+      </section>
+      
+    </main>
+    <div class="social">
+      
+      <h4 class="creditos">&copyChallenge ONE 2022 </h4>
+    </div>
+    
+    
+  </body>
+  <script src="./cod_JavaScript/script.js"></script>
+  
+</html>
